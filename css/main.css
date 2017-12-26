@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.grad-ross {
+	background: linear-gradient(135deg, #a90329 25%,#8f0222 44%,#6d0019 67%);
+	background-repeat: no-repeat;
+}
+
+.container-flex-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 2em;
+}
+
+.vh100 {
+	height: 100vh;
+}
+
+@media (min-width: 992px) {
+	.view1 {
+	  width: 50rem;
+	  margin-left: 25%; 
+	}
+  }
