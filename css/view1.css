@@ -9,11 +9,16 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed;   
+}
+
+.opacity {
+    background: rgba(0, 0, 0, 0.3);
+    height: 100vh;
 }
 
 .logo-header {
-    width: 25vw;
+    width: 24vw;
 }
 
 .white-logo {
@@ -21,4 +26,20 @@
     justify-content: center;
     height: 7rem;
     margin-top: 2em;
+}
+
+.lyft-central {
+    margin-top: 13rem;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    margin-top: 13rem;
+}
+
+.botones a {
+    margin: 1em;
+    background-color: transparent;
+    border-color: #ffff;
 }
