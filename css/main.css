@@ -20,6 +20,10 @@
 	height: 100vh;
 }
 
+.view1 {
+	filter: drop-shadow(3px 3px 4px #9999);
+}
+
 @media (min-width: 992px) {
 	.view1 {
 	  width: 50rem;
