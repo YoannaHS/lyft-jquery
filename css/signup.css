@@ -1,0 +1,27 @@
+.btn-success {
+    background-color: #ffff;
+    color: black;
+    border-radius: 50px;
+    margin-top: 2em;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+}
+
+.signup-country {
+    padding: 2em;
+}
+
+.title {
+    text-align: center;
+}
+
+.next {
+    text-align: center;
+}
+
+.img-icon {
+    width: 5vh;
+}
