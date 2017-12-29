@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn-success {
+    background-color: #ffff;
+    border: none;
+    margin-top: 1em;
+}
