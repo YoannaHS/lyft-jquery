@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.verify-center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.cod-random {
+    text-align: center;
+    border: none;
+    color: #db1b55;
+    width: 3em;
+}
+
+.resend {
+    line-height: 3em;
+}
+
+#verify-random:hover {
+    background-color: #40707b;
+    color: #ffff;
+}
+
+.btn-danger {
+    margin-top: 18rem;
+}
+
+button a {
+    text-decoration-style: none;
+    color: #ffff;
+}

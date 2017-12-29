@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Añadimos nuestro framework "Bootstrap" -->
+	<link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+	<!-- Enlazamos nuestro archivo CSS -->
+	<link rel="stylesheet" href="../css/verify.css">
+	<!-- Enlazamos nuestro logo -->
+	<link rel="shortcut icon" href="../assets/img/logo.png" type="image/x-icon">
+    <title>Lyft</title>
+</head>
+<body>
+  <main class="verify-center">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>Verify phone number</h1>
+          <span>Join now for free ride credit</span><hr>
+        </div>
+        <div>
+          <span>LAB - </span><input id="three-codes" type="number" class="cod-random" value="" placeholder="_ _ _" autofocus>
+        </div>
+        <div class="resend">
+          <span>Enter the code sent to +51</span>
+          <br>
+          <button type="button" value="Resend Code" id="verify-random" class="btn btn-default btn-sm">Resend code</button>
+        </div>
+        <button type="submit" id="signup" class="btn btn-danger" style="width: 20em" disabled><a href="login.html">Next</a></button>
+      </div>
+    </div>
+  </main>
+    <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+  <script src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+  <!-- Enlazamos nuestro archivo signup para verificar el código random -->
+  <script src="../js/signup.js"></script>
+	<script src="../js/verify.js"></script> 
+</body>
+</html>
