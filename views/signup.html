@@ -9,7 +9,9 @@
 	<!-- Enlazamos nuestro archivo CSS -->
 	<link rel="stylesheet" href="../css/signup.css">
 	<!-- Enlazamos nuestro logo -->
-	<link rel="shortcut icon" href="../assets/img/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/img/logo.png" type="image/x-icon">
+    <!-- Añadimos nuestros iconos de font awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Sign Up</title>
 </head>
 <body>
@@ -18,7 +20,7 @@
             <div class="row">
                 <div class="col-xs-12 arrow">
                     <a href="register.html" type="button" class="btn btn-success">
-                        <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+                        <i class="fa fa-arrow-left" aria-hidden="true" style="color: #ef2d22"></i>
                     </a>
                 </div>
             </div>
@@ -33,9 +35,10 @@
                     </div>
                     <form class="sign-up col-xs-12" method="post">
                         <div class="dropdown col-xs-3">
-                            <button class="btn btn-default dropdown-toggle" type="button" id="listcountry" data-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="true">Country
-                                <span class="caret"></span>
+                            <button class="btn btn-default dropdown-toggle" type="button" id="listcountry" data-toggle="dropdown" aria-haspopup="true"aria-expanded="true">
+                                <a href="#">
+                                    <img class="img-icon country-peru" src="../assets/icon/bandera-peru.ico" alt="Perú">
+                                </a><span class="caret"></span>
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="listcountry">
                                 <li>
@@ -50,22 +53,19 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img class="img-icon" src="../assets/icon/bandera-peru.ico" alt="Perú">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
                                         <img class="img-icon" src="../assets/icon/us.ico" alt="Estados Unidos">
                                     </a>
                                 </li>
                             </ul>
                         </div>
                         <div class="form-group col-xs-9">
-                            <input type="text" class="form-control" placeholder="+051 Number Phone">
+                            <form method="post" action="index.php" class="form">
+                                <input type="text" name="phone" id="phone" placeholder="Number Phone" />
+                            </form>
                         </div>
                         <div class="next">
                             <p>We'll send a text to verify your phone</p>
-                            <a href="code.html" type="button" class="btn btn-default">NEXT</a>
+                            <input type="submit" name="send" id="send" value="Next" class="btn btn-danger btn-lg" style="width: 20em" disabled />
                         </div>
                     </form>
                 </div>

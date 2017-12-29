@@ -1,8 +1,7 @@
 .btn-success {
     background-color: #ffff;
-    color: black;
-    border-radius: 50px;
-    margin-top: 2em;
+    border: none;
+    margin-top: 1em;
 }
 
 .arrow {
@@ -24,4 +23,9 @@
 
 .img-icon {
     width: 5vh;
+}
+
+#phone {
+    padding: 0.5em;
+    border: none;
 }

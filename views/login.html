@@ -37,14 +37,19 @@
                         <i class="fa fa-user-o" aria-hidden="true"></i>
                     </div>
                     <div class="col-xs-11">
-                        <input type="email" class="form-control" id="inputEmail" placeholder="First Name    Laste Name">
+                        <div col-xs-5>
+                            <input type="email" class="form-control input-sm" id="inputEmail" placeholder="First Name">
+                        </div>
+                        <br>
+                        <div col-xs-6>
+                            <input type="email" class="form-control input-sm" id="inputEmail" placeholder="Last Name">
+                        </div>
                     </div>
                 </div>
-                <br>
-                <br>
                 <div class="col-xs-12">
-                    <label for="inputPassword">Password</label>
-                    <br>
+                    <div class="label-password">
+                        <label for="inputPassword">Password</label>
+                    </div>
                     <br>
                     <div class="col-xs-1">
                         <i class="fa fa-envelope-o" aria-hidden="true"></i>
@@ -55,12 +60,12 @@
                 </div>
                 <div class="checkbox">
                     <label>
-                        <input type="checkbox"> Check me out
+                        <input type="checkbox"> I agree to Lyft'ss <a href="#">Terms of Service</a>
                     </label>
                 </div>
                 <br>
                 <br>
-                <button type="submit" id="signup" class="btn btn-danger" disabled>Next</button>
+                <button type="submit" id="signup" class="btn btn-danger" style="width: 20em" disabled>Next</button>
             </form>
     </main>
     <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
