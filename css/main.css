@@ -25,8 +25,9 @@
 }
 
 @media (min-width: 992px) {
-	.view1 {
-	  width: 50rem;
-	  margin-left: 25%; 
+	.grad-ross {
+		background-image: url('../assets/img/page-construccion.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
   }
